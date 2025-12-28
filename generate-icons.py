@@ -1,4 +1,4 @@
-#!/usr/bin/env python3    
+#!/usr/bin/env python3        
 """
 SNT Tools - Icon Generator Script
 Generates all required PWA icons from a source image.
