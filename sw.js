@@ -1,4 +1,4 @@
-// SNT Automation Tools - Service Worker   
+// SNT Automation Tools - Service Worker        
 // Works with GitHub Pages (root or /docs folder)
 
 const CACHE_NAME = 'snt-tools-v1';
