@@ -854,7 +854,7 @@
 
         <div class="section-nav-container">
             <div class="section-tabs">
-                <div class="section-tab active" onclick="goToSection(1)">1. DATA ASSEMBLY</div>
+                <div class="section-tab active" onclick="goToSection(1)">1. DATA ASSEMBLY AND COLLECTION</div>
                 <div class="section-tab" onclick="goToSection(2)">2. DATA EXTRACTION</div>
                 <div class="section-tab" onclick="goToSection(3)">3. DATA TRANSFORMATION</div>
                 <div class="section-tab" onclick="goToSection(4)">4. ROUTINE EPI PREPROCESSING</div>
@@ -898,6 +898,14 @@
                             <div class="card-number">1</div>
                             <div class="card-title">DATA ASSEMBLY AND COMMUNICATION PLATFORM</div>
                             <div class="card-description">Central hub for data assembly, collaboration, and communication. These tools help you organize datasets, coordinate with team members, and maintain documentation throughout the SNT process.</div>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="openModal('modal-1-2')">
+                        <div class="card-header">
+                            <div class="card-number">1</div>
+                            <div class="card-title">DATA COLLECTION (ICF COLLECT)</div>
+                            <div class="card-description">Design data collection forms, collect data offline, and submit when data is available. Auto integration and syncing data into DHIS2</div>
                         </div>
                     </div>
                 </div>
@@ -1440,7 +1448,7 @@
         const toolUrls = {
             // Section 1: Data Assembly
             "1-1": { concept: "", illustration: "", tool: "https://mohamedsillahkanu.github.io/snt-data-assembly-and-communication-chanel/" },
-            
+            "1-2": { concept: "", illustration: "", tool: "https://informatics-consultancy-firm.github.io/form-builder/" },
             // Section 2: Data Extraction
             "2-1": { concept: "", illustration: "", tool: "https://mohamedsillahkanu.github.io/dataset-download/" },
             "2-2": { concept: "", illustration: "", tool: "https://gdp-dashboard-ddk50fm82fk.streamlit.app/?embed=true" },
